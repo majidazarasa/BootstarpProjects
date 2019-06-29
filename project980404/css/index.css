@@ -16,7 +16,18 @@ div.document {
 div.footerDoc {
   background-color: #F7F7F7; }
 
-button.btn,
+button.btnShow,
+button.btnEdit {
+  font-size: 1em; }
+
+button.btnShow {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px; }
+
+button.btnEdit {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px; }
+
 p.cellFooter {
   font-size: 0.8em; }
 
